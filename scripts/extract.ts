@@ -6,7 +6,7 @@ import { encode } from "gpt-3-encoder";
 const CHUNK_SIZE = 200;
 
 export const getTextContentFromPDF = async (pdfBuffer: Buffer) => {
-  const { text, numpages, info } = await pdfParse(pdfBuffer)
+  const { text } = await pdfParse(pdfBuffer)
   return text
 }
 

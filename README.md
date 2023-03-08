@@ -102,7 +102,7 @@ This extracts the text of the book from The Mahabharata PDF and saves it to a js
 npm run embed
 ```
 
-This reads the json file, generates embeddings for each chunk of text, and saves the results to your database.
+This reads the json file, generates embeddings for each chunk of text, and saves the results to your database. The entire cost of this step is ~$0.20. You can read more about the cost of OpenAI Embeddings [here](https://openai.com/blog/new-and-improved-embedding-model).
 
 ### App
 
