@@ -25,10 +25,10 @@ export default function Home() {
   const [apiKey, setApiKey] = useState<string>("");
 
   const handleSearch = async () => {
-    if (!apiKey) {
-      alert("Please enter an API key.");
-      return;
-    }
+    // if (!apiKey) {
+    //   alert("Please enter an API key.");
+    //   return;
+    // }
 
     if (!query) {
       alert("Please enter a query.");
@@ -65,10 +65,10 @@ export default function Home() {
   };
 
   const handleAnswer = async () => {
-    if (!apiKey) {
-      alert("Please enter an API key.");
-      return;
-    }
+    // if (!apiKey) {
+    //   alert("Please enter an API key.");
+    //   return;
+    // }
 
     if (!query) {
       alert("Please enter a query.");
