@@ -149,10 +149,10 @@ export default function Home() {
   };
 
   const handleSave = () => {
-    if (apiKey.length !== 51) {
-      alert("Please enter a valid API key.");
-      return;
-    }
+    // if (apiKey.length !== 51) {
+    //   alert("Please enter a valid API key.");
+    //   return;
+    // }
 
     localStorage.setItem("PG_KEY", apiKey);
     localStorage.setItem("PG_MATCH_COUNT", matchCount.toString());
